@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="315 495 248.536 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #562161;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #d5d5d5;
+        font-size: 18px;
+        font-family: HelveticaNeue-Light, Helvetica Neue;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(0 -109)">
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-1" transform="translate(315 604)">
+      <rect class="cls-3" width="248.536" height="52"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="247.536" height="51"/>
+    </g>
+    <text id="SEU_NOME" data-name="SEU NOME" class="cls-2" transform="translate(329 637)"><tspan x="0" y="0">SEU NOME</tspan></text>
+  </g>
+</svg>

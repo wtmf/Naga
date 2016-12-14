@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="810 496 155 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fec600;
+      }
+
+      .cls-2 {
+        fill: #55215f;
+        font-size: 18px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+      }
+    </style>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(0 -109)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="155" height="50" transform="translate(810 605)"/>
+    <text id="ENVIAR" class="cls-2" transform="translate(888 637)"><tspan x="-36.189" y="0">ENVIAR</tspan></text>
+  </g>
+</svg>

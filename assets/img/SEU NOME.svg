@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="329 511 99 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d5d5d5;
+        font-size: 18px;
+        font-family: HelveticaNeue-Light, Helvetica Neue;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+      }
+    </style>
+  </defs>
+  <text id="SEU_NOME" data-name="SEU NOME" class="cls-1" transform="translate(329 528)"><tspan x="0" y="0">SEU NOME</tspan></text>
+</svg>

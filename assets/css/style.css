@@ -1,0 +1,202 @@
+html{
+	height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(314deg, rgb(94, 18, 149) 0%, rgb(87, 31, 105) 60%, rgb(82, 39, 75) 100%);
+	background: -o-linear-gradient(314deg, rgb(94, 18, 149) 0%, rgb(87, 31, 105) 60%, rgb(82, 39, 75) 100%);
+	background: -ms-linear-gradient(314deg, rgb(94, 18, 149) 0%, rgb(87, 31, 105) 60%, rgb(82, 39, 75) 100%);
+	background: -moz-linear-gradient(314deg, rgb(94, 18, 149) 0%, rgb(87, 31, 105) 60%, rgb(82, 39, 75) 100%);
+	background: linear-gradient(136deg, rgb(94, 18, 149) 0%, rgb(87, 31, 105) 60%, rgb(82, 39, 75) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    height: 98%;
+}
+
+#content{
+	width: 100%;
+	min-height:100%;
+	height:auto;
+	background-image: url('../img/background-pattern.png');
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+}
+
+#main-content{
+	width: 80%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#main-content > img, #main-content > p, #main-content > form {
+	align-self: center;
+    padding: 0.5em;
+}
+
+#naga-logo{
+	width: 32%;
+}
+
+#naga-cultura{
+	   color: #fff;
+    font-size: 1.8em;
+    font-family: Lato-BlackItalic, Lato;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 0;
+
+}
+
+#naga-chegando{
+ 	color: #fec600;
+    font-size: 0.8em;
+    font-family: Lato-BlackItalic, Lato;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+#naga-assine{
+	color: #fff;
+    font-size: 1.2em;
+    font-family: Lato-BlackItalic, Lato;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 0;
+}
+
+#form-email{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.input-style{
+	height: 2.5em;
+    border: 0;
+    width: 32%;
+    padding-left: 0.5em;
+    margin-left: 0.15em;
+}
+
+.btn-style {
+	
+	border: 0;
+	cursor: pointer;
+	margin-left: 2px;
+	background-color: #fec600;
+    font-size: 0.8em;
+    font-family: Lato-BlackItalic, Lato;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    width: 7em;
+    color: rgb(94, 18, 149);
+}
+
+.naga-mensagem {
+	color: #fec600;
+    font-size: 0.8em;
+    font-family: Lato-BlackItalic, Lato;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #717171;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+   color: #353535;
+  
+}
+:-ms-input-placeholder { /* IE 10+ */
+   color: #353535;
+   
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #353535;
+   
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px){
+
+	html{
+		height: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 1000px){
+
+	
+	
+	#main-content {
+    	width: 90%;
+    	padding-top: 3em;
+    	padding-bottom: 3em;
+	}
+
+	#naga-logo {
+    	width: 70%;
+	}
+
+	#naga-cultura{
+		font-size: 1em;
+	}
+
+	#naga-assine{
+		font-size: 0.7em;
+	}
+
+	#form-email {
+	   width: 90%;
+	   flex-direction: column;
+	   align-items: center;
+	   padding-bottom: 5em;
+	   margin-top: 0.5em;
+	}
+
+	.input-style {
+	    height: 2.5em;
+	    line-height: 2.5em;
+	    border: 0;
+	    width: 70%;
+	    padding-left: 0.5em;
+	    margin-bottom: 1.15em;
+	}
+
+	#naga-chegando{
+	 	
+	    font-size: 0.5em;
+
+	}
+
+	.naga-mensagem {
+		color: #fec600;
+	    font-size: 0.7em;
+	    font-family: Lato-BlackItalic, Lato;
+	    font-weight: 800;
+	    font-style: italic;
+	    letter-spacing: 0.1em;
+	    margin: 0;
+	}
+
+	.btn-style {
+		width: 72%;
+		margin: 0;
+		height: 2.5em;
+	}
+
+}
